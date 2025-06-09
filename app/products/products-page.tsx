@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect, Suspense } from 'react'
-import { useSearchParams, useRouter } from 'next/navigation'
+import { useRouter } from 'next/navigation'
 import { ProductCard } from '@/components/ui/product-card'
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
